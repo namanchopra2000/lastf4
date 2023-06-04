@@ -17,8 +17,8 @@ const App = () => {
         <hr></hr>
       </nav>
       <Routes>
-        <Route path="display" Component={Display}></Route>
-        <Route index path="/lastf4" Component={Home}></Route>
+        <Route path="/lastf4/display" Component={Display}></Route>
+        <Route index path="/lastf4/" Component={Home}></Route>
       </Routes>
     </Provider>
 
