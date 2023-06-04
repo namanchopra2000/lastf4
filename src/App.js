@@ -18,7 +18,7 @@ const App = () => {
       </nav>
       <Routes>
         <Route path="display" Component={Display}></Route>
-        <Route index Component={Home}></Route>
+        <Route index path="/lastf4" Component={Home}></Route>
       </Routes>
     </Provider>
 
