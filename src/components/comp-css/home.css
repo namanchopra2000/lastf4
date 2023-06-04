@@ -1,0 +1,43 @@
+.main-heading{
+    color: white;
+    padding: 10px;
+}
+hr{
+    color: white;
+}
+.posts{
+    
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-gap: 20px; /* Adjust the gap between the product cards */
+        
+        padding: 10px;
+        justify-content: space-between;
+        padding: 35px;
+      }
+      .card{
+        border : white solid 2px ;
+        border-radius: 25px;
+        justify-content: center;
+      }
+    .img{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+    }
+    img{
+      width: 330px;
+        padding: 5px;
+        border-radius: 25px;
+      }
+      .card-body{
+        padding: 15px;
+      }
+      a{
+        text-decoration: none;
+        color: aliceblue;
+      }
+    h1{
+      color: aliceblue;
+    }
